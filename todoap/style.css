@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  background-color: #4c2cca25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem 1rem;
+}
+
+.main_heading{
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+.Write_note{
+min-width: 22rem;
+ padding: 10px 10px;
+ border-radius: 12px;
+ background-color:#ffffff;
+}
+
+.Write_note>input{
+  width: 80%;
+  height: 100%;
+  padding: 4px 4px;
+  outline: none;
+  border: none;
+}
+
+.add_note{
+  padding: 4px 8px;
+  background-color:  #4c2cca25;
+  border: none;
+  border-radius: 2px;
+  color: #444141;
+}
+
+.input_task{
+  width:23rem;
+  max-width: 40rem;
+  margin: 4px auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #4c2cca25;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 4px;
+}
+
+.heading{
+  color: #444141;
+  margin-bottom: 8px;
+}
+
+
+.edit,.delete{
+  border: none;
+  background: transparent;
+  margin-left: 8px ;
+}
+p{
+  font-size: 16px;
+  color: #444141;
+}
+
